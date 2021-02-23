@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'inter',sans-serif;
+}
+::selection {
+background-color:#F59E0B;
+color: white;
+}
+svg {
+width: 2em;
+height:2em;
+transform:rotate(360deg);
+}
+.circle {
+/* Height vertical(Width) blur spread color */
+box-shadow: 1px 5px 5px 0px rgb(255, 233, 203);
+}
+.get_app_btn {
+box-shadow: 1px 4px 3px 0px rgb(255, 233, 203);
+}
+.title, h3, .month_text{
+font-family: 'Poppins', sans-serif;
+}
+.pricing_card{
+transition: .4s linear;
+}
+.pricing_card:hover{
+transform: translateY(-0.5rem);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
